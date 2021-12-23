@@ -1,0 +1,5 @@
+The language of choice will be Python, for linting the tools that is used is Pylint. Testing can be done using Pyunit / UnitTest which is a standard Python library. Before merging the changes into the main / master branch (via pull request or similar methods), the code will be automatically linted and unit tests are performed. Only if the tests are performed without any issues, the branch will then be merged.
+
+The alternative CI tools are Travis CI, GitLab, Google Cloud Build, Azure DevOps.
+
+It really depends on the size of the project as well as the number of people working on the project. If the project is small and only involves a small number of developers working on it, then i would opt for a cloud based environment, else i would opt for self-hosted solution. The reason being that for cloud based solution, there is minimal setup required and can save money and time for the team and focus more on the development of the project. While for self hosted solution is more suitable for enterprise level scale and require some special configuration (such as secret environment variables).
