@@ -34,5 +34,5 @@ jobs:
           heroku_app_name: "protected-castle-25169"
           heroku_email: ${{secrets.HEROKU_EMAIL_ADDRESS}}
           healthcheck: "https://protected-castle-25169.herokuapp.com/health"
-          checkstring: "okk"
+          checkstring: "ok"
           rollbackonhealthcheckfailed: true
